@@ -84,14 +84,16 @@ color: white;
 
 }
 .image img{
-    width:600px;
+    width:100%;
     height:auto;
     position: relative;
     
 }
 .contain{
+    display: flex;
     width:400px;
-    height:400px;
+    /* height:400px; */
+    height: auto;
     border-radius: 10%;
     background-color:rgb(255, 141, 88);
     position:absolute;
@@ -151,8 +153,8 @@ color: white;
     font-weight:bold;
 }
 .abticon img{
-    width:300px;
-    height:350px;
+    width:250px;
+    height:auto;
     position: relative;
     margin-left: 20px;
 }
@@ -315,31 +317,32 @@ color: white;
 
 
     
- .section_4{
-    width: 100%;
+ .section_4n{
+    width:auto;
     height:auto; 
     /*change auto  */
-    background-color:rgb(34, 34, 33);
+    background-color: rgb(34, 34, 33);
     color: white;
   
     
  }
  .project{
   display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 33);
 
  }
  .git{
-    width: auto;
-    height:auto;
+  max-width: 100%;
+   /* min-width:200px; */
+   height:auto;
    margin-top:30px;
    margin-bottom:10px;
  }
 
  .git img{
-    width:400px;
-    height: 300px;
-    /* margin: auto; */
-    margin-left:60px;
+    width:390px;
+    height:auto;
    border-radius:10px; 
 
  }
@@ -443,9 +446,4 @@ filter: blur(2px);
 }
 .icon{
    font-size:25px;
-}
-
-*::-webkit-scrollbar{
-    /* width: 0; */
-    background:transparent;
 }
