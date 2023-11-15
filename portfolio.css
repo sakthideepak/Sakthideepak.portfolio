@@ -50,6 +50,7 @@
 }
 .about{
     text-align: start;
+    
 }
 @keyframes left-right {
     0% {
@@ -61,17 +62,17 @@
   }
 
 .information h2{
-margin-left: 150px; 
+margin-left: 100px; 
 animation: left-right 1.5s ease-in-out;
 color: white;
 }
 .information h3{
-margin-left: 150px; 
+margin-left: 100px; 
 animation: left-right 1.5s ease-in-out;
 color: white;
 }
 .information h5{
-margin-left: 150px; 
+margin-left: 100px; 
 animation: left-right 1.5s ease-in-out;
 color: white;
 }
@@ -92,8 +93,7 @@ color: white;
 .contain{
     display: flex;
     width:400px;
-    /* height:400px; */
-    height: auto;
+    height:400px;
     border-radius: 10%;
     background-color:rgb(255, 141, 88);
     position:absolute;
@@ -111,8 +111,8 @@ color: white;
       }
     
       100% {
-        width: 400px;
-        height:400px;
+        width:400px;
+        height: 400px;;
       }
     
 }
@@ -151,6 +151,8 @@ color: white;
 .row_1  h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight:bold;
+    text-decoration: underline white;
+
 }
 .abticon img{
     width:250px;
@@ -163,10 +165,13 @@ color: white;
     background-color: rgb(35, 33, 33);
     color: white;
 
+
 }
 .section_2 h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    text-decoration: underline white;
+
 }
 
 .makeflex{
@@ -315,9 +320,15 @@ color: white;
     } 
 }
 
+.pro{
+    color: rgb(255, 141, 88);
+    font-weight:bold;
+    text-decoration: underline white;
 
+}
     
  .section_4n{
+    font-family: 'Courier New', Courier, monospace;
     width:auto;
     height:auto; 
     /*change auto  */
@@ -331,6 +342,13 @@ color: white;
   justify-content: space-between;
   background-color: rgb(34, 34, 33);
 
+ }
+ .into{
+    background-color: rgb(255, 141, 88);
+ }
+ .into:hover{
+    background-color: whitesmoke;
+    color: black;
  }
  .git{
   max-width: 100%;
@@ -349,7 +367,7 @@ color: white;
  .links{
     position: absolute;
     z-index: 2;
-    margin: 130px 0px  0px 215px;
+    margin: 110px 0px  0px 120px;
     display: none;
 
  }
@@ -391,7 +409,7 @@ filter: blur(2px);
     padding-top: 100px;
  }
  .connect{
-    margin:110px 0px 0px 22px;
+    margin:50px 0px 0px 22px;
     /* margin-top:30px; */
  }
  .connect a{
@@ -423,14 +441,13 @@ filter: blur(2px);
  .cont2 input,textarea,button{
     border-radius:5px;
     display: block;
-    margin-left:50px;
     
 
  }
  .cont2 button{
     color: white;
     background-color: rgb(255, 141, 88);
-    width:150px;
+    width:auto;
  }
  
 .cont2 button:hover{
@@ -446,4 +463,39 @@ filter: blur(2px);
 }
 .icon{
    font-size:25px;
+}
+
+/* *::-webkit-scrollbar{
+    /* width: 0; 
+    background:transparent;
+} */
+
+@media  screen and (max-width:620px)  {
+    .contain{
+        width:350px;
+        height:280px;
+    }
+    .image img{
+        margin-bottom:20px;
+    }
+     
+}
+@media  screen and (max-width:520px)  {
+    .contain{
+       width: 300px;
+       height:200px;
+       margin-left:200px;
+      
+       
+    }
+    .image img{
+        margin-bottom:100px;
+    }
+
+}
+@media  screen and (max-width:420px)  {
+    .contain{
+    visibility: hidden;
+    }
+  
 }
