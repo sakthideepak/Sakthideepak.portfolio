@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SD portfolio</title>
+  <!-- <meta charset="utf-8"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="na" id="whole_container">
+        <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="brand"href="#">
+                  <h2 width="30px">SAKTHIDEEPAK.</h2></a>
+                  <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rightsidecontent" aria-controls="rightsidecontent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        <div class="collapse navbar-collapse" id="rightsidecontent">
+            <ul class="nav navbar-nav ms-auto" id="home">
+                <li class="nav-item"><a href="#Home" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="#About" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#Education" class="nav-link">EDUCATION & SKILLS</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">PROJECTS</a></li>
+                <li class="nav-item"><a href="#CONTACT" class="nav-link">CONTACT</a></li>
+            </ul>
+            </div>
+        </div>
+            
+        </nav>
+        </header>
+  <div class="row" id="Home">
+      <div class="col-lg-7  col-md-6  information ">
+        <span class="about">
+         <h5>Hello,</h5>
+         <h3>I'm <span style="color:rgb(225, 141, 88);"> Sakthideepak</span></h3>
+         <h2> web Developer &</h2>
+         <h2>Front-End Developer</h2>
+        </span>
+      <button type="button" class="btn resume"><a id="Download" href="/photos/SAKTHIDEEPAK _P_RESUME.pdf.pdf " target="_blank">View CV</a></button>
+      </div>
+    <div class="col-lg-5 col-md-6   image">
+        <span class="contain"></span>
+      <img src="/photos/sakthi.png"  class="mt-1">
+    </div>
+  </div>
+  <!-- <section class="container-fluid"> -->
+    <div class="row_1 mt-1" id="About">
+        <div class="col-12 info">
+
+           <h1 class="col-lg-12 text-center ab ">ABOUT</h1>
+        <div class="row ">
+          <div class="col-lg-4 col-sm-12 abticon ms-5">
+          <img src="/photos/sakthideepak_p.jpeg">
+          <!-- <img src="data:image/png;base64,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"> -->
+          </div>
+          <div class="col-lg-7 col-sm-12"> 
+          <p class="col-lg-12  px-5 pb-5">A passionate lad with never-ending perseverance towards accomplishments in life who is very enthusiastic to explore and learn new sought in website development and is a creative thinker that loves creating websites than any. A vibrant youngman very optimistic in all aspects of life seeking a job role that fit into his passion of developing websites which are visually appealing and one that serves every purpose. The portfolio figures out his way of making art(websites).</p>
+          </div>
+        </div>
+        </div>
+        
+    </div>
+    <div class="section_2 " id="Education">
+
+      <h1 class="text-center col-12 pb-3 ed-sk">Education & Skills</h1>
+      <div class="makeflex row  ">
+        <div class="Education  col-lg-6  col-md-12 pb-4">
+          <div class="years">
+            <h6 class="year1">2019-2023</h6>
+            <h6 class="year">2018-2019</h6>
+            <h6 class="year2">2016-2017</h6>
+        </div>
+          <div class="liner  ">
+              <div class="dotline">
+                  <span class="dot"></span>
+                  <span class="line0"></span>
+                </div>
+                <div class="dotline">
+                  <span class="dot1"></span>
+                  <span class="line1"></span>
+                </div>
+                <div class="dotline">
+                  <span class="dot1"></span>
+                  <span class="line2"></span>
+                </div>
+          </div>
+          <div class="Education_data ">
+            
+            <div class="qual">
+               <h3 class="qualification"> BE-computer Science and Engineering</h3>
+               <span class="college_name">P.A college of engineering and technology,</span>
+               <h6>pollachi</h6>
+               <h6 class="mt-3">8.45CGPA</h6>
+            </div>
+         
+            <div class="qual mt-4">
+               <h3 class="qualification"> HSC</h3>
+               <span class="college_name">Alagappa Matric Hr.Sec school,</span>
+               <h6>Karaikudi</h6>
+               <h6 class="mt-3"> 58<i class="bi bi-percent"></i></h6>
+            </div>
+            <div class="qual mt-4">
+               <h3 class="qualification">SSLC</h3>
+               <span class="college_name">Alagappa Matric Hr.Sec school,</span>
+               <h6>Karaikudi</h6>
+              <h6 class="mt-3">83<i class="bi bi-percent"></i></h6>
+            </div>
+          </div>
+        </div>
+        <div class="sks col-lg-6 col-md-12 pb-3">
+         <div class="skill_name">HTML</div>
+       <div class="skill_bar">
+         <div class="skill_percent" per="90%"  style=" max-width:90%";></div>
+       </div>
+         <div class="skill_name">CSS</div>
+       <div class="skill_bar">
+         <div class="skill_percent" per="80%" style=" max-width:80%";></div>
+       </div>
+         <div class="skill_name">BOOTSTRAP</div>
+       <div class="skill_bar">
+         <div class="skill_percent" per="75%" style=" max-width:75%";></div>
+       </div>
+         <div class="skill_name">JAVASCRIPT</div>
+       <div class="skill_bar ">
+         <div class="skill_percent " per="70%" style=" max-width:70%";></div>
+       </div>
+       </div>
+
+   </div>
+   </div>
+   <div class="section_4 " id="project">
+      <h1 class="text-center col-12">Projects</h1>
+      <d iv  class="project row ">
+        <div class="git col-lg-4 col-md-6 ">
+          <a href="https://sakthideepak.github.io/OTT/" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+           <img src="/photos/man-watching-streaming-service-his-laptop.jpg">
+        </div>
+        <div class="git col-lg-4  col-md-6 ">
+          <a href=" https://sakthideepak.github.io/Website-Tour-guide/" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+          <img src="/photos/janis-oppliger-dRHE-XF7wls-unsplash.jpg">
+        </div>
+        <div class="git col-lg-4 col-md-6">
+          <a href="https://sakthideepak.github.io/calculator/" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+          <img src="/photos/kelly-sikkema-3-Tc_5LROrM-unsplash.jpg">
+        </div>
+        <div class="git col-lg-4 col-md-6 ">
+          <a href="https://sakthideepak.github.io/test/" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+          <img src="/photos/original-07ea8fcf2df18f99f79dcb160fbb37eb.jpg">
+        </div>
+        <div class="git col-lg-4 col-md-6 ">
+          <a href="#" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+          <img src="/photos/joshua-aragon-BMnhuwFYr7w-unsplash.jpg">
+        </div>
+        <div class="git col-lg-4 col-md-6 pb-5">
+          <a href="#" target="_blank"><button class="btn btn-outline-light links">Click Me</button></a>
+          <img src="/photos/man-watching-streaming-service-his-laptop.jpg">
+        </div>
+      </div>
+     </div>
+   <div class="section_5 mt-1 pb-5 row " id="CONTACT">
+     <div class=" col-lg-6  cont ">
+      <h1 class=" col-12 contact ps-5">Contact Me</h1>
+      <div class="line"></div>
+      <ul class="icons">
+        <li class="email">
+          <span class="icon"><i class="bi-envelope-fill me-3"></i>sakthideepak.sp@gmail.com</span>
+        </li>
+        <!-- <li class="github">
+          <span class="icon"><i class="bi-github"></i></span>
+        </li>
+        <li class="linkedin"> 
+          <span class="icon"><i class="bi-linkedin "></i><a href="www.linkedin.com/in/
+            sakthi-deepak-9952b8236">Linkedin</a>
+            </span>
+        </li> -->
+        <li class="mobile">
+          <span class="icon"><i class="bi-telephone-fill me-3"></i>7708303964</span>
+        </li>
+      </ul>
+      <div class="connect">
+        <a href="mailto:sakthideepak.sp@gmail.com" target="_blank"><i class="bi-envelope-fill"></i></a>
+        <a href="https://github.com/sakthideepak" target="_blank"><i class="bi-github"></i></a>
+        <a href="www.linkedin.com/in/sakthi-deepak-9952b8236" target="_blank"><i class="bi-linkedin"></i></a>
+        <a href="#"><i class="bi-facebook"></i></a>
+        <a href="#"><i class="bi-instagram"></i></a>
+       
+      </div>
+     </div>
+     <div class=" col-lg-6 cont2 ">
+       <input type="text"  placeholder="Enter Your Name" size="40"style="height:35px" class="text-dark">
+       <input type="text"  placeholder="Enter Your Email" size="40"style="height:35px" class="text-dark mt-5">
+       <textarea id="subject" name="subject"  placeholder="Enter Your Message"style="height:100px;width: 340px;" class="text-dark mt-5"></textarea>
+       <button type="button"  class="btn  mt-3 ">Submit</button>
+        
+        
+     </div>
+     </div>
+    </div>
+
+
+</body>
+
+</html>
