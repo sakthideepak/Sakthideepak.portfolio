@@ -286,7 +286,7 @@ color: white;
   
 
 }
-.skill_percent::before{
+/*.skill_percent::before{
     content: attr(per);
     position:absolute ;
     padding:4px 6px;
@@ -298,7 +298,7 @@ color: white;
     right:0;
     transform:translateX(50%)
 
-}
+}*/
 /* .skill_percent::after{
     content:"";
     position: absolute;
